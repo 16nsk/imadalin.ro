@@ -1,12 +1,560 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-    <title><%= @document.title %> | Madalin Ignisca</title>
+	<!-- Meta -->
+	<meta charset="utf-8" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<!-- Title, Description and Keywords -->
+    <title><%= @getPreparedTitle() %></title>
+    <meta name="description" content="<%= @getPreparedDescription() %>" />
+    <meta name="keywords" content="<%= @getPreparedKeywords() %>" />
+    <meta name="author" content="<%= @site.author or '' %>" />
+
+    <!-- DocPad meta output -->
     <%- @getBlock("meta").toHTML() %>
-    <%- @getBlock("styles").toHTML() %>
+
+    <!-- Mobile viewport optimized: h5bp.com/viewport -->
+    <meta name="viewport" content="width=device-width" />
+
+    <!-- Icons -->
+    <link rel="shortcut icon" href="/images/icons/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/icons/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/icons/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/icons/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="/images/icons/apple-touch-icon-57-precomposed.png">
+
+    <!-- Styles -->
+    <%- @getBlock("styles").add(@site.styles).toHTML() %>
 </head>
 <body>
-    <h1><%= @document.title %></h1>
-    <%- @content %>
-    <%- @getBlock("scripts").toHTML() %>
+	<div id="wrapper">
+
+		<div class="container">
+
+			<div class="row">
+
+				<div class="col-lg-10 col-lg-offset-1">
+
+					<div class="bg-line hidden-xs">
+						<nav>
+							<ul class="nav nav-tabs nav-justified">
+								<li class="bg-primary"><h6 class="text-center"><i class="fa fa-code"></i></h6></li>
+								<li class="bg-success"><h6 class="text-center"><i class="fa fa-code"></i></h6></li>
+								<li class="bg-info"><h6 class="text-center"><i class="fa fa-code"></i></h6></li>
+								<li class="bg-warning"><h6 class="text-center"><i class="fa fa-code"></i></h6></li>
+								<li class="bg-danger"><h6 class="text-center"><i class="fa fa-code"></i></h6></li>
+							</ul>
+						</nav>
+					</div>
+
+					<header class="portrait push-bottom text-center">
+
+						<div class="popover top static">
+							<div class="arrow"></div>
+							<div class="popover-content">
+
+								<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+									<div class="carousel-inner">
+    									<div class="item active">
+											<p>I think that JavaScript is going to power anything. It can do anything on web and mobile...</p>
+										</div>
+
+    									<div class="item">
+											<p>I made my site using HTML5, CSS3, JavaScript, Bootstrap, Node.js and DocPad</p>
+										</div>
+
+										<div class="item">
+											<p>PS. The site is static online, dynamic on local ;)<br />&nbsp;</p>
+										</div>
+									</div>
+
+								</div><!-- end carousel -->
+							</div>
+						</div>
+
+						<div class="myavatar">
+
+							<a href="<%= @site.linkedin %>" data-toggle="tooltip" data-placement="left" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+
+							<img src="http://www.gravatar.com/avatar/02296c112bd912baae9dcf6eb7348bdb.png?s=140" class="img-circle" />
+
+							<a href="<%= @site.twitter %>" data-toggle="tooltip" data-placement="right" title="Twitter"><i class="fa fa-twitter"></i></a>
+
+						</div>
+
+						<h1 class="name">Mădălin Ignișca</h1>
+						<h2><small>freelance frontend developer</small></h2>
+
+						<button id="open-content" class="btn btn-primary btn-lg">Push it!</button>
+
+					</header>
+
+					<main class="content push-bottom" id="main-content">
+
+						<nav id="navigation">
+
+							<ul class="nav nav-tabs nav-justified">
+
+								<li class="active"><a href="#about" data-toggle="tab" data-menu="about"><i class="fa fa-user"></i> About Me</a></li>
+								<li><a href="#resume" data-toggle="tab" data-menu="resume"><i class="fa fa-code"></i> Resume</a></li>
+								<li><a href="#portfolio" data-toggle="tab" data-menu="portfolio"><i class="fa fa-folder-open"></i> Portfolio</a></li>
+								<li><a href="#blog" data-toggle="tab" data-menu="blog"><i class="fa fa-leaf"></i> Blog</a></li>
+								<li><a href="#contact" data-toggle="tab" data-menu="contact"><i class="fa fa-envelope"></i> Contact</a></li>
+
+							</ul>
+
+						</nav>
+
+						<div class="tab-content">
+
+							<div class="tab-pane fade in active" id="about">
+
+								<div class="row">
+
+									<div class="col-md-3 text-center">
+										<img src="http://www.gravatar.com/avatar/02296c112bd912baae9dcf6eb7348bdb.png?s=140" class="img-circle push-top" />
+									</div>
+
+									<div class="col-md-9">
+										<h2>Hello, my name is Mădălin Ignișca!</h2>
+										<hr />
+										<p>Hi, my name is Mădălin Ignișca. I'm a Frontend Developer and Web Designer.</p>
+										<p>I love to work with Node.js, JavaScript, HTML5, CSS3, Less, Sass, Compass, DocPad, Yo, Bower, Grunt.</p>
+										<p>I'm also interested and passionate about UX design techniques.</p>
+										<p>My background is in PHP programming and Linux servers administration.</p>
+										<p>I've been creating and maintaining websites for an US company in the last 4 years and started recent a project on my own.</p>
+									</div>
+									<div class="col-md-12">
+										<hr />
+									</div>
+
+									<div class="col-md-6">
+										<h2><i class="fa fa-credit-card"></i> Identity</h2>
+										<div class="row">
+											<div class="col-sm-4"><label>Fullname</label></div>
+											<div class="col-sm-8"> Mădălin Ignișca</div>
+										</div>
+										<div class="row">
+											<div class="col-sm-4"><label>Date of birth</label></div>
+											<div class="col-sm-8"> February 28th, 1983</div>
+										</div>
+										<div class="row">
+											<div class="col-sm-4"><label>Address</label></div>
+											<div class="col-sm-8"> Romania, Cluj County, Cluj-Napoca</div>
+										</div>
+										<div class="row">
+											<div class="col-sm-4"><label>Phone</label></div>
+											<div class="col-sm-8"> +40 731 792 027</div>
+										</div>
+										<div class="row">
+											<div class="col-sm-4"><label>Email</label></div>
+											<div class="col-sm-8"> madalin.ignisca@gmail.com</div>
+										</div>
+										<div class="row">
+											<div class="col-sm-4"><label>Skype</label></div>
+											<div class="col-sm-8"> madalin.ignisca</div>
+										</div>
+										<div class="row">
+											<div class="col-sm-4"><label>Website</label></div>
+											<div class="col-sm-8"> <a target="_blank" href="http://imadalin.ro/">http://iMadalin.ro</a></div>
+										</div>
+									</div>
+
+									<div class="col-md-6">
+										<h2><i class="fa fa-briefcase"></i> Main Skills</h2>
+										<ul class="list-group">
+											<li class="list-group-item">Frontend development <span class="badge"><i class="fa fa-thumbs-up"></i></span></li>
+											<li class="list-group-item">DocPad development <span class="badge"><i class="fa fa-thumbs-up"></i></span></li>
+											<li class="list-group-item">WordPress development <span class="badge"><i class="fa fa-thumbs-up"></i></span></li>
+											<li class="list-group-item">Drupal development <span class="badge"><i class="fa fa-thumbs-up"></i></span></li>
+										</ul>
+									</div>
+
+								</div>
+
+								<div class="row">
+
+									<div class="col-xs-12">
+
+										<h2><i class="fa fa-users"></i> Companies worked with</h2>
+										<ul class="list-inline text-center">
+											<li>
+												<a href="http://webozy.com"><img class="img-responsive" src="/images/clients/webozy.png" alt="Webozy" /></a>
+											</li>
+											<li>
+												<a href="http://paginiaurii.ro"><img class="img-responsive" src="/images/clients/pa.png" alt="Pagini Aurii" /></a>
+											</li>
+											<li>
+												<a href="http://www.airbites.ro"><img class="img-responsive" src="/images/clients/logo_airbites.jpg" alt="Airbites" /></a>
+											</li>
+										</ul>
+
+									</div>
+
+								</div>
+
+							</div>
+
+							<div class="tab-pane fade" id="resume">
+
+								<div class="row">
+
+									<div class="col-md-8">
+										<h2><i class="fa fa-bar-chart-o"></i> Work history</h2>
+										<div class="box-block">
+											<div class="time-line">
+												<div class="item-event current">
+													<div class="event-content">
+														<h3>Web Developer <span class="badge pull-right">2010 - present</span></h3>
+														<h4>Freelance</h4>
+														<p>After leaving Yellow Pages I've started on my own taking projects on the internet from different freelance websites.
+															I've started from basic websites created in Joomla, Drupal and WordPress, started to study more on PHP, then JavaScript and recent technologies.
+															Recent I've started to enjoy more JavaScript programming and Node.js and got more interested in Frontend development.
+															I love the new "cool" developers tools like Yo, Grunt, Bower, Less, Sass, Compass, Docpad etc.</p>
+													</div>
+												</div>
+												<div class="item-event">													
+													<div class="event-content">
+														<h3>Sales Agent <span class="badge pull-right">2009</span></h3>
+														<h4>Yellow Pages, Romania</h4>
+														<p>Even if it was for less then a year, in this company I've learned many things that improved me
+															as a person and helped me in my next steps. In Yellow Pages I've got the chance to meet
+															handreds of people, company managers in my country region. I've learned a lot about people and
+															prioritizing things in many aspects.</p>
+													</div>
+												</div>
+												<div class="item-event">													
+													<div class="event-content">
+														<h3>Aquisitions Manager <span class="badge pull-right">2007-2008</span></h3>
+														<h4>Airbites</h4>
+														<p>Airbites, a child company of Swisscom, providing internet, phone and iptv services, offered me the oportunity to learn many things in networking technology,
+														work in team, managing critical situations. I've started here from the call center, dealing with the "sensible" and "technical" clients.
+														After a short period I've leveled up to the position that was deciding all hardware resources that were integrated in the the wan network.</p>
+													</div>
+												</div>											
+												<div class="item-event">													
+													<div class="event-content">
+														<h3>Network Administrator <span class="badge pull-right">2005 - 2007</span></h3>
+														<h4>eWeb Connection</h4>
+														<p>I started my own small ISP business, after spending a few years learning Linux servers administration as a hobby.
+															I had clients in my local neighbourhood. I had my first encounter with PHP, extending a custommer management application
+															with automation on the server that was connecting my clients to the internet.</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<hr />
+										<h2><i class="fa fa-book"></i> Education</h2>
+										<div class="time-line">
+											<div class="item-event">												
+												<div class="even-content">
+													<h3>Highschool <span class="badge pull-right">1997 - 2001</span></h3>
+													<h4>Dimitrie Cantemir Highschool (Iași)</h4>
+													<p>Mathematics and Phisics</p>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-md-4">
+										<h2><i class="fa fa-wrench"></i> Skills</h2>						
+										<ul class="list-group">
+											<li class="list-group-item">PSD to Web Template <span class="badge"><i class="fa fa-thumbs-up"></i></span></li>
+											<li class="list-group-item">Clean HTML5/CSS3 code <span class="badge"><i class="fa fa-thumbs-up"></i></span></li>
+											<li class="list-group-item">JavaScript programming <span class="badge"><i class="fa fa-thumbs-up"></i></span></li>
+											<li class="list-group-item">Frontend Frameworks <span class="badge"><i class="fa fa-thumbs-up"></i></span></li>
+											<li class="list-group-item">Node.js based applications <span class="badge"><i class="fa fa-thumbs-up"></i></span></li>
+											<li class="list-group-item">Autommation with Grunt, Bower &amp; Yo <span class="badge"><i class="fa fa-thumbs-up"></i></span></li>
+											<li class="list-group-item">DocPad development <span class="badge"><i class="fa fa-thumbs-up"></i></span></li>
+											<li class="list-group-item">PHP programming <span class="badge"><i class="fa fa-thumbs-up"></i></span></li>
+											<li class="list-group-item">WordPress development <span class="badge"><i class="fa fa-thumbs-up"></i></span></li>
+											<li class="list-group-item">Drupal development <span class="badge"><i class="fa fa-thumbs-up"></i></span></li>
+											<li class="list-group-item">Cloud deployment <span class="badge"><i class="fa fa-thumbs-up"></i></span></li>
+										</ul>
+										<hr />
+										<h2><i class="fa fa-comment"></i> Known Languages</h2>
+										<ul class="list-group">
+											<li class="list-group-item">English <span class="badge">advanced</span></li>
+											<li class="list-group-item">French <span class="badge">beginner</span></li>
+											<li class="list-group-item">Romanian <span class="badge">native</span></li>
+										</ul>
+										<hr />
+										<h2><i class="fa fa-file"></i> Download my CV</h2>
+										<p class="text-center"><a href="/docs/cv_madalin_ignisca.pdf" class="btn btn-success btn-lg"><i class="fa fa-download"></i> Download</a></p>
+										<p class="text-center text-info">Or view it online at <a href="http://www.myjob.ro/cv/202411/">MyJob.ro</a></p>
+									</div>
+								</div>
+
+							</div>
+
+							<div class="tab-pane fade" id="portfolio">
+
+								<h3><i class="fa fa-briefcase"></i> Some of my Work</h3>
+								<div class="row">
+
+									<div class="col-sm-4">
+										<div class="panel panel-default">
+											<div class="panel-body">
+												<a data-toggle="modal" data-target="#drakeInstitute"><img class="img-responsive" src="/images/portfolio/drakeinstitute.jpg" alt="Drake Institute" /></a>
+											</div>
+											<div class="panel-footer">
+												<p class="text-center">Drake Institute</p>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-sm-4">
+										<div class="panel panel-default">
+											<div class="panel-body">
+												<a data-toggle="modal" data-target="#eCompany"><img class="img-responsive" src="/images/portfolio/ecompany.jpg" alt="eCompany Solutions" /></a>
+											</div>
+											<div class="panel-footer">
+												<p class="text-center">eCompany Solutions, Inc.</p>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-sm-4">
+										<div class="panel panel-default">
+											<div class="panel-body">
+												<a data-toggle="modal" data-target="#gigant"><img class="img-responsive" src="/images/portfolio/gigant.jpg" alt="Gigant Band" /></a>
+											</div>
+											<div class="panel-footer">
+												<p class="text-center">Gigant Band</p>
+											</div>
+										</div>
+									</div>
+
+								</div>
+
+								<div class="row">
+
+									<div class="col-sm-4">
+										<div class="panel panel-default">
+											<div class="panel-body">
+												<a data-toggle="modal" data-target="#notaclue"><img class="img-responsive" src="/images/portfolio/notaclue.jpg" alt="Not a clue adventures" /></a>
+											</div>
+											<div class="panel-footer">
+												<p class="text-center">Not a clue Adventures</p>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-sm-4">
+										<div class="panel panel-default">
+											<div class="panel-body">
+												<a data-toggle="modal" data-target="#unaoarecare"><img class="img-responsive" src="/images/portfolio/unaoarecare.jpg" alt="Unaoarecare" /></a>
+											</div>
+											<div class="panel-footer">
+												<p class="text-center">Unaoarecare.ro</p>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-sm-4">
+										<div class="panel panel-default">
+											<div class="panel-body">
+												<a data-toggle="modal" data-target="#vesh"><img class="img-responsive" src="/images/portfolio/vesh.jpg" alt="Vesh catering" /></a>
+											</div>
+											<div class="panel-footer">
+												<p class="text-center">Vesh catering</p>
+											</div>
+										</div>
+									</div>
+
+								</div>
+
+								<div class="row">
+
+									<div class="col-sm-4">
+										<div class="panel panel-default">
+											<div class="panel-body">
+												<a data-toggle="modal" data-target="#phAnt"><img class="img-responsive" src="/images/portfolio/ph-ant.jpg" alt="PH ANT" /></a>
+											</div>
+											<div class="panel-footer">
+												<p class="text-center">PHANT Academy</p>
+											</div>
+										</div>
+									</div>
+
+								</div>
+
+							</div>
+
+							<div class="tab-pane fade" id="blog">
+
+								<h1 class="text-center">Section in progress...</h1>
+								<p class="text-center">I'm preparing my JavaScript Blog Engine using Node.js and DocPad</p>
+
+							</div>
+
+							<div class="tab-pane fade" id="contact">
+
+								<div class="row">
+
+									<div class="col-sm-10 col-sm-offset-1">
+
+										<h2><i class="fa fa-envelope"></i> Email:</h2>
+										<p>madalin.ignisca@gmail.com</p>
+
+										<h2><i class="fa fa-phone"></i> Phone:</h2>
+										<p>+40 731 792 027</p>
+										<p class="small">I answer only to know numbers. Please send an email with your number before.</p>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</div>
+
+					</main>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+<footer>
+	<nav class="navbar navbar-inverse navbar-fixed-bottom">
+
+		<div class="container">
+			<p class="pull-left">&copy; Mădălin Ignișca <%- (new Date()).getFullYear() %>.<span class="hidden-xs"> Powered by Node.js, DocPad, Bootstrap</span></p>
+			<p class="pull-right hidden-xs">
+				This website was last updated at <%= @site.date.toTimeString() %>
+			</p>
+		</div>
+
+	</nav>
+</footer>
+
+
+	<div class="modal fade" id="drakeInstitute" tabindex="-1" role="dialog" aria-labelledby="drakeInstituteLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="drakeInstituteLabel">Drake Institute</h4>
+				</div>
+				<div class="modal-body">
+					<img class="img-responsive" src="/images/portfolio/drakeinstitute.jpg" alt="Drake Institute" />
+				</div>
+				<div class="modal-footer">
+					<p><a href="http://www.drakeinstitute.com/" target="_blank">Visit website</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="eCompany" tabindex="-1" role="dialog" aria-labelledby="eCompanyLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="eCompanyLabel">eCompany Solutions, Inc.</h4>
+				</div>
+				<div class="modal-body">
+					<img class="img-responsive" src="/images/portfolio/ecompany.jpg" alt="eCompany Solutions, Inc." />
+				</div>
+				<div class="modal-footer">
+					<p><a href="http://ecompanysolutions.com/" target="_blank">Visit website</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="gigant" tabindex="-1" role="dialog" aria-labelledby="gigantLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="gigantLabel">Gigant Band</h4>
+				</div>
+				<div class="modal-body">
+					<img class="img-responsive" src="/images/portfolio/gigant.jpg" alt="Gigant Band" />
+				</div>
+				<div class="modal-footer">
+					<p><a href="http://www.gigantduo.de/" target="_blank">Visit website</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="notaclue" tabindex="-1" role="dialog" aria-labelledby="notaclueLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="notaclueLabel">Not a clue Adventures</h4>
+				</div>
+				<div class="modal-body">
+					<img class="img-responsive" src="/images/portfolio/notaclue.jpg" alt="Not a clue Adventures" />
+				</div>
+				<div class="modal-footer">
+					<p><a href="http://notaclueadventures.com/" target="_blank">Visit website</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="unaoarecare" tabindex="-1" role="dialog" aria-labelledby="UnaoarecareLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="UnaoarecareLabel">Unaoarecare.ro</h4>
+				</div>
+				<div class="modal-body">
+					<img class="img-responsive" src="/images/portfolio/unaoarecare.jpg" alt="Unaoarecare.ro" />
+				</div>
+				<div class="modal-footer">
+					<p><a href="http://www.unaoarecare.ro/" target="_blank">Visit website</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="vesh" tabindex="-1" role="dialog" aria-labelledby="veshLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="veshLabel">Vesh catering</h4>
+				</div>
+				<div class="modal-body">
+					<img class="img-responsive" src="/images/portfolio/vesh.jpg" alt="Vesh catering" />
+				</div>
+				<div class="modal-footer">
+					<p><a href="http://cateredbyvesh.com/" target="_blank">Visit website</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="phAnt" tabindex="-1" role="dialog" aria-labelledby="phAntLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="phAntLabel">Phant Academy</h4>
+				</div>
+				<div class="modal-body">
+					<img class="img-responsive" src="/images/portfolio/ph-ant.jpg" alt="Vesh catering" />
+				</div>
+				<div class="modal-footer">
+					<p><a href="http://ph-ant.com/" target="_blank">Visit website</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <%- @getBlock("scripts").add(@site.scripts).toHTML() %>
 </body>
 </html>

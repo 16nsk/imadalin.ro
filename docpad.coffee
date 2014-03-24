@@ -32,7 +32,21 @@ docpadConfig = {
 
       email: "madalin.ignisca@gmail.com"
 
-      copyright: "© Mădălin Ignișca 2014"
+      linkedin: "http://www.linkedin.com/in/madalinignisca"
+
+      twitter: "https://twitter.com/16nsk"
+
+      styles: [
+        "/styles/style.css",
+        "/vendor/animate.css/animate.css"
+      ]
+
+      scripts: [
+        "/vendor/modernizr/modernizr.js",
+        "/vendor/jquery/dist/jquery.js",
+        "/vendor/bootstrap/dist/js/bootstrap.js",
+        "/scripts/scripts.js"
+      ]
 
     # Helper Functions
     # ----------------
