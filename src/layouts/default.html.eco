@@ -30,19 +30,7 @@
 </head>
 <body>
 
-<div class="container-fluid">
-
-  <div class="row">
-
-    <div class="col-lg-10 col-lg-offset-1">
-
-      <%- @content %>
-
-    </div>
-
-  </div>
-
-</div>
+<%- @content %>
 
 <footer>
   <nav class="navbar navbar-inverse navbar-fixed-bottom">
@@ -51,7 +39,7 @@
         <div class="col-xs-10 col-xs-offset-1">
           <p class="pull-left">&copy; Mădălin Ignișca <%- (new Date()).getFullYear() %>.</p>
           <p class="pull-right hidden-xs">Last updated at <%= @site.date.toLocaleDateString() %></p>
-          <p class="text-center hidden-xs">Powered by Node.js, DocPad, Bootstrap</p>
+          <p class="text-center hidden-xs">Powered by <a href="http://nodejs.org">Node.js</a>, <a href="http://docpad.org">DocPad</a>, <a href="http://getbootstrap.com">Bootstrap</a></p>
         </div>
       </div>
     </div>

@@ -1,7 +1,11 @@
 ---
 layout: default
 ---
+<div class="container-fluid">
 
+  <div class="row">
+
+    <div class="col-lg-10 col-lg-offset-1">
 
       <header class="portrait push-bottom text-center">
 
@@ -340,8 +344,18 @@ layout: default
 
           <div class="tab-pane fade" id="blog">
 
-            <h1 class="text-center">Section in progress...</h1>
-            <p class="text-center">I'm preparing my JavaScript Blog Engine using Node.js and DocPad</p>
+            <h1 class="text-center">Latest posts</h1>
+
+            <ul>
+
+            <% for document in @getCollection("posts").toJSON(): %>
+            <li>
+              <%= document.url %>
+              <%= document.title %>
+            </li>
+            <% end %>
+
+            </ul>
 
           </div>
 
@@ -486,3 +500,9 @@ layout: default
           </div>
         </div>
       </div>
+
+    </div>
+
+  </div>
+
+</div>

@@ -50,6 +50,10 @@ docpadConfig = {
         "/scripts/scripts.js"
       ]
 
+      services:
+        googleAnalytics: "UA-25548310-1"
+        disqus: 'imadalin'
+
     # Helper Functions
     # ----------------
 
@@ -74,6 +78,12 @@ docpadConfig = {
       # Merge the document keywords with the site keywords
       # @site.keywords.concat(@document.keywords or []).join(', ')
       @document.keywords or @site.keywords
+
+  collections:
+    posts: (database) ->
+      database.findAllLive({relativeOutDirPath:"posts"},[date:-1])
+
+
 }
 
 # Export the DocPad Configuration
