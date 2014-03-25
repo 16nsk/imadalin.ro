@@ -20,6 +20,8 @@ docpadConfig = {
 
       title: "Madalin's zone"
 
+      slogan: "Talking about Frontend, Backend, JavaScript, CoffeeScript, Node.js, Less and Jade"
+
       description: """
         Hi! My name is Mădălin Ignișca. I'm a Frontend developer in love with JavaScript and Node.js. Contact me to work together.
         """
@@ -70,7 +72,8 @@ docpadConfig = {
     # Get the prepared site/document keywords
     getPreparedKeywords: ->
       # Merge the document keywords with the site keywords
-      @site.keywords.concat(@document.keywords or []).join(', ')
+      # @site.keywords.concat(@document.keywords or []).join(', ')
+      @document.keywords or @site.keywords
 }
 
 # Export the DocPad Configuration
