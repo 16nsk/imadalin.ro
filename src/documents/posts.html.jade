@@ -1,0 +1,28 @@
+---
+title: "Things that I think about"
+isPage: true
+layout: archive
+---
+.container
+	.row
+		.col-xs-12
+			a.h1(href="/")
+				i.fa.fa-code
+	.row
+		.col-md-8.col-md-offset-2
+			h1.text-center Latest posts
+			each doc in getCollection("posts").toJSON()
+				article.article-brief
+					header.text-center
+						h3.title
+							a(href=doc.url)= doc.title
+						p.meta
+							small
+								| Posted on 
+								!= doc.date.toDateString()
+					main
+						!= doc.brief
+					footer
+						p.text-info
+							a(href=doc.url) Read more 
+								i.fa.fa-angle-double-right

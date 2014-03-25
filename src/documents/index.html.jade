@@ -1,0 +1,468 @@
+---
+title: Welcome to my zone
+layout: home
+isPage: true
+---
+
+.container-fluid
+	.row
+		.col-lg-10.col-lg-offset-1
+		
+			header.push-bottom.text-center
+			
+				.popover.top.static
+					.arrow
+					.popover-content
+						.carousel.slide(data-ride="carousel")
+							.carousel-inner
+								.item.active
+									p I think that JavaScript is going to power anything. It can do anything on web and mobile...
+								.item
+									p I made my site using HTML5, CSS3, JavaScript, Bootstrap, Node.js and DocPad
+								.item
+									p
+										| PS. The site is static online, dynamic on local
+										i.fa.fa-beer
+										
+				.myavatar
+					a(href=site.linkedin, data-toggle="tooltip", data-placement="left", title="Linkedin")
+						i.fa.fa-linkedin
+					img.img-circle(src=site.avatar)
+					a(href=site.twitter, data-toggle="tooltip", data-placement="right", title="Twitter")
+						i.fa.fa-twitter
+						
+				h1.name
+					!= site.author
+					
+				h2
+					small freelance frontend developer
+					
+				button#open-content.btn.btn-primary.btn-lg Push it!
+			
+			main#main-content.push-bottom
+
+				nav#navigation
+
+					ul.nav.nav-tabs.nav-justified
+
+						li.active
+							a(href="#about", data-toggle="tab", data-menu="about")
+								i.fa.fa-user
+								| About Me
+						li
+							a(href="#resume", data-toggle="tab",data-menu="resume")
+								i.fa.fa-code
+								| Resume
+						li
+							a(href="#portfolio", data-toggle="tab", data-menu="portfolio")
+								i.fa.fa-folder-open
+								| Portfolio
+						li
+							a(href="#blog", data-toggle="tab", data-menu="blog")
+								i.fa.fa-leaf
+								| Blog
+						li
+							a(href="#contact", data-toggle="tab", data-menu="contact")
+								i.fa.fa-envelope
+								| Contact
+
+				.tab-content
+
+					#about.tab-pane.fade.in.active
+						.row
+							.col-md-3.text-center
+								img.img-circle.push-top(src=site.avatar)
+							.col-md-9
+								h2
+									| Hello, my name is 
+									!= site.author
+								hr
+								p I'm a Frontend Developer and Web Designer.
+								p I love to work with Node.js, JavaScript, HTML5, CSS3, Less, Sass, Compass, DocPad, Yo, Bower, Grunt.
+								p I'm also interested and passionate about UX design techniques.
+								p My background is in PHP programming and Linux servers administration.
+								p I've been creating and maintaining websites for an US company in the last 4 years and started recent a project on my own.
+						.row
+							.col-md-6
+								h2
+									i.fa.fa-credit-card
+									| Identity
+								table.table.table-hover
+									tr
+										td Fullname
+										td
+											!= site.author
+									tr
+										td Date of birth
+										td February 28th, 1983
+									tr
+										td Address
+										td Romania, Cluj County, Cluj-Napoca
+									tr
+										td Phone
+										td +40 731 792 027
+									tr
+										td Email
+										td
+											site.email
+									tr
+										td Skype
+										td madalin.ignisca
+									tr
+										td Website
+										td
+											site.url
+							.col-md-6
+								h2
+									i.fa.fa-briefcase
+									| Main Skills
+								ul.list-group
+								li.list-group-item
+									| Frontend development
+									span.badge
+										i.fa.fa-thumbs-up
+								li.list-group-item
+									| DocPad development
+									span.badge
+										i.fa.fa-thumbs-up
+								li.list-group-item
+									| WordPress development
+									span.badge
+										i.fa.fa-thumbs-up
+								li.list-group-item
+									| Drupal development
+									span.badge
+										i.fa.fa-thumbs-up
+						.row
+							.col-xs-12
+								h2
+									i.fa.fa-users
+									| Companies worked with
+								ul.list-inline.text-center
+									li
+										a(href="http://webozy.com")
+											img.img-responsive(src="/images/clients/webozy.png", alt="Webozy")
+									li
+										a(href="http://paginiaurii.ro")
+											img.img-responsive(src="/images/clients/pa.png", alt="Pagini Aurii")
+									li
+										a(href="http://www.airbites.ro")
+											img.img-responsive(src="/images/clients/logo_airbites.jpg", alt="Airbites")
+
+					#resume.tab-pane.fade						
+						.row
+							.col-md-8
+								h2
+									i.fa.fa-bar-chart-o
+									| Work history
+								.time-line
+									.item-event.current
+										.event-content
+											h3
+												| Web Developer
+												span.badge.pull-right 2010 - present
+												h4 Freelance
+												p
+													| After leaving Yellow Pages I've started on my own taking projects
+													| on the internet from different freelance websites.
+													| I've started from basic websites created in Joomla, Drupal
+													| and WordPress, started to study more on PHP,
+													| then JavaScript and recent technologies.
+													| Recent I've started to enjoy more JavaScript programming and
+													| Node.js and got more interested in Frontend development.
+													| I love the new "cool" developers tools like
+													| Yo, Grunt, Bower, Less, Sass, Compass, Docpad etc.
+									.item-event
+										.event-content
+											h3
+												| Sales Agent
+												span.badge.pull-right 2009
+											h4 Yellow Pages, Romania
+											p
+												| Even if it was for less then a year, in this
+												| company I've learned many things that improved me
+												| as a person and helped me in my next steps.
+												| In Yellow Pages I've got the chance to meet
+												| handreds of people, company managers in my country
+												| region. I've learned a lot about people and
+												| prioritizing things in many aspects.
+									.item-event
+										.event-content
+											h3
+												| Aquisitions Manager
+												span.badge.pull-right 2007-2008
+											h4 Airbites
+											p
+												| Airbites, a child company of Swisscom, providing
+												| internet, phone and iptv services,
+												| offered me the oportunity to learn many things
+												| in networking technology,
+												| work in team, managing critical situations.
+												| I've started here from the call center,
+												| dealing with the "sensible" and "technical" clients.
+												| After a short period I've leveled up to the
+												| position that was deciding all
+												| hardware resources that were integrated in the the wan network.
+									.item-event
+										.event-content
+											h3
+												| Network Administrator
+												span.badge.pull-right 2005 - 2007
+											h4 eWeb Connection
+											p
+												| I started my own small ISP business, after spending a few years
+												| learning Linux servers administration as a hobby.
+												| I had clients in my local neighbourhood. I had my first encounter
+												| with PHP, extending a custommer management application
+												| with automation on the server that was connecting my clients to the internet.
+								hr
+								h2
+									i.fa.fa-book
+									| Education
+								.time-line
+									.item-event
+										.even-content
+											h3
+												| Highschool
+												span.badge.pull-right 1997 - 2001
+											h4 Dimitrie Cantemir Highschool (Iași)
+											p Mathematics and Phisics							
+							.col-md-4
+								h2
+									i.fa.fa-wrench
+									| Skills
+								ul.list-group
+									li.list-group-item
+										| PSD to Web Template
+										span.badge
+											i.fa.fa-thumbs-up
+									li.list-group-item
+										| Clean HTML5/CSS3 code
+										span.badge
+											i.fa.fa-thumbs-up
+									li.list-group-item
+										| JavaScript programming
+										span.badge
+											i.fa.fa-thumbs-up
+									li.list-group-item
+										| Frontend Frameworks
+										span.badge
+											i.fa.fa-thumbs-up
+									li.list-group-item
+										| Node.js based applications
+										span.badge
+											i.fa.fa-thumbs-up
+									li.list-group-item
+										| Autommation with Grunt, Bower &amp; Yo
+										span.badge
+											i.fa.fa-thumbs-up
+									li.list-group-item
+										| DocPad development
+										span.badge
+											i.fa.fa-thumbs-up
+									li.list-group-item
+										| PHP programming
+										span.badge
+											i.fa.fa-thumbs-up
+									li.list-group-item
+										| WordPress development
+										span.badge
+											i.fa.fa-thumbs-up
+									li.list-group-item
+										| Drupal development
+										span.badge
+											i.fa.fa-thumbs-up
+									li.list-group-item
+										| Cloud deployment
+										span.badge
+											i.fa.fa-thumbs-up
+								hr
+								h2
+									i.fa.fa-comment
+									| Known Languages
+								.list-group
+									li.list-group-item
+										| English
+										span.badge advanced
+									li.list-group-item
+										| French
+										span.badge beginner
+									li.list-group-item
+										| Romanian
+										span.badge native
+								hr
+								h2
+									i.fa.fa-file
+									| Download my CV
+								p.text-center
+									a.btn.btn-success.btn-lg(href="/docs/cv_madalin_ignisca.pdf")
+										i.fa.fa-download
+										| Download
+								p.text-center.text-info
+									| Or view it online at
+									a(href="http://www.myjob.ro/cv/202411/") MyJob.ro
+
+					#portfolio.tab-pane.fade
+						h3
+							i.fa.fa-briefcase
+							| Some of my Work						
+						.row
+							.col-sm-4
+								.panel.panel-default
+									.panel-body
+										a(data-toggle="modal", data-target="#drakeInstitute")
+											img.img-responsive(src="/images/portfolio/drakeinstitute.jpg", alt="Drake Institute")
+									.panel-footer
+										p.text-center Drake Institute
+							.col-sm-4
+								.panel.panel-default
+									.panel-body
+										a(data-toggle="modal", data-target="#eCompany")
+											img.img-responsive(src="/images/portfolio/ecompany.jpg", alt="eCompany Solutions")
+									.panel-footer
+										p.text-center eCompany Solutions, Inc.
+							.col-sm-4
+								.panel.panel-default
+									.panel-body
+										a(data-toggle="modal", data-target="#gigant")
+											img.img-responsive(src="/images/portfolio/gigant.jpg", alt="Gigant Band")
+									.panel-footer
+										p.text-center Gigant Band
+						.row
+							.col-sm-4
+								.panel.panel-default
+									.panel-body
+										a(data-toggle="modal", data-target="#notaclue")
+											img.img-responsive(src="/images/portfolio/notaclue.jpg", alt="Not a clue adventures")
+									.panel-footer
+										p.text-center Not a clue Adventures
+							.col-sm-4
+								.panel.panel-default
+									.panel-body
+										a(data-toggle="modal", data-target="#unaoarecare")
+											img.img-responsive(src="/images/portfolio/unaoarecare.jpg", alt="Unaoarecare")
+									.panel-footer
+										p.text-center Unaoarecare.ro
+							.col-sm-4
+								.panel.panel-default
+									.panel-body
+										a(data-toggle="modal", data-target="#vesh")
+											img.img-responsive(src="/images/portfolio/vesh.jpg", alt="Vesh catering")
+									.panel-footer
+										p.text-center Vesh catering
+						.row
+							.col-sm-4
+								.panel.panel-default
+									.panel-body
+										a(data-toggle="modal", data-target="#phAnt")
+											img.img-responsive(src="/images/portfolio/ph-ant.jpg", alt="PH ANT")
+									.panel-footer
+										p.text-center PHANT Academy										
+					#blog.tab-pane.fade
+						h1.text-center Latest posts
+						each doc in getCollection("posts").toJSON()
+							article.article-brief
+								header.text-center
+									h3.title
+										a(href=doc.url)= doc.title
+									p.meta
+										small
+											| Posted on 
+											!= doc.date.toDateString()
+
+					#contact.tab-pane.fade
+						.row
+							.col-sm-10.col-sm-offset-1
+								h2
+									i.fa.fa-envelope
+									| Email:
+								p= site.author
+								h2
+									i.fa.fa-phone
+									| Phone:
+								p +40 731 792 027
+								p.small I answer only to know numbers. Please send an email with your number before.
+
+#drakeInstitute.modal.fade(tabindex="-1", role="dialog", aria-labelledby="drakeInstituteLabel", aria-hidden="true")
+	.modal-dialog
+		.modal-content
+			.modal-header
+				button.close(type="button", data-dismiss="modal", aria-hidden="true") &times;
+				h4#drakeInstituteLabel.modal-title Drake Institute
+			.modal-body
+				img.img-responsive(src="/images/portfolio/drakeinstitute.jpg", alt="Drake Institute")
+			.modal-footer
+				p
+					a(href="http://www.drakeinstitute.com/", target="_blank") Visit website
+
+#eCompany.modal.fade(tabindex="-1", role="dialog", aria-labelledby="eCompanyLabel", aria-hidden="true")
+	.modal-dialog
+		.modal-content
+			.modal-header
+				button.close(type="button", data-dismiss="modal", aria-hidden="true") &times;
+				h4#eCompanyLabel.modal-title eCompany Solutions, Inc.
+			.modal-body
+				img.img-responsive(src="/images/portfolio/ecompany.jpg", alt="eCompany Solutions, Inc.")
+			.modal-footer
+				p
+					a(href="http://ecompanysolutions.com/", target="_blank") Visit website
+
+#gigant.modal.fade(tabindex="-1", role="dialog", aria-labelledby="gigantLabel", aria-hidden="true")
+	.modal-dialog
+		.modal-content
+			.modal-header
+				button.close(type="button", data-dismiss="modal", aria-hidden="true") &times;
+				h4#gigantLabel.modal-title Gigant Band
+			.modal-body
+				img.img-responsive(src="/images/portfolio/gigant.jpg", alt="Gigant Band")
+			.modal-footer
+				p
+					a(href="http://www.gigantduo.de/", target="_blank") Visit website
+
+#notaclue.modal.fade(tabindex="-1", role="dialog", aria-labelledby="notaclueLabel", aria-hidden="true")
+	.modal-dialog
+		.modal-content
+			.modal-header
+				button.close(type="button", data-dismiss="modal", aria-hidden="true") &times;
+				h4#notaclueLabel.modal-title Not a clue Adventures
+			.modal-body
+				img.img-responsive(src="/images/portfolio/notaclue.jpg", alt="Not a clue Adventures")
+			.modal-footer
+				p
+					a(href="http://notaclueadventures.com/", target="_blank") Visit website
+
+#unaoarecare.modal.fade(tabindex="-1", role="dialog", aria-labelledby="UnaoarecareLabel", aria-hidden="true")
+	.modal-dialog
+		.modal-content
+			.modal-header
+				button.close(type="button", data-dismiss="modal", aria-hidden="true") &times;
+				h4#UnaoarecareLabel.modal-title Unaoarecare.ro
+			.modal-body
+				img.img-responsive(src="/images/portfolio/unaoarecare.jpg", alt="Unaoarecare.ro")
+			.modal-footer
+				p
+					a(href="http://www.unaoarecare.ro/", target="_blank") Visit website
+
+#vesh.modal.fade(tabindex="-1", role="dialog", aria-labelledby="veshLabel", aria-hidden="true")
+	.modal-dialog
+		.modal-content
+			.modal-header
+				button.close(type="button", data-dismiss="modal", aria-hidden="true") &times;
+				h4#veshLabel.modal-title Vesh catering
+			.modal-body
+				img.img-responsive(src="/images/portfolio/vesh.jpg", alt="Vesh catering")
+			.modal-footer
+				p
+					a(href="http://cateredbyvesh.com/", target="_blank") Visit website
+
+#phAnt.modal.fade(tabindex="-1", role="dialog", aria-labelledby="phAntLabel", aria-hidden="true")
+	.modal-dialog
+		.modal-content
+			.modal-header
+				button.close(type="button", data-dismiss="modal", aria-hidden="true") &times;
+				h4#phAntLabel.modal-title Phant Academy
+			.modal-body
+				img.img-responsive(src="/images/portfolio/ph-ant.jpg", alt="Vesh catering")
+			.modal-footer
+				p
+					a(href="http://ph-ant.com/", target="_blank") Visit website

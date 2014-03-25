@@ -1,0 +1,21 @@
+---
+layout: default
+---
+header.container.clearfix
+	h1.h3.text-right= site.title
+	h2.h5.text-right= site.slogan
+	.container
+		.row
+			.col-xs-12
+				a.h1(href="/posts.html")
+					i.fa.fa-angle-double-left.wobble.animated
+
+main
+	header.text-center
+		h1.post-title= document.title
+		.meta
+			| Posted on:
+			!= document.date.toLocaleDateString()
+	!= content
+	footer.container
+		!= getDisqus()
