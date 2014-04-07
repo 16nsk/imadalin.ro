@@ -50,14 +50,15 @@ docpadConfig = {
       twitter: "https://twitter.com/16nsk"
 
       styles: [
-        "/styles/style.css",
-        "/vendor/animate.css/animate.css"
+        "//netdna.bootstrapcdn.com/bootswatch/3.1.1/lumen/bootstrap.min.css",
+        "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css",
+        "//cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.0/animate.min.css",
+        "/styles/style.css"
       ]
 
       scripts: [
-        "/vendor/modernizr/modernizr.js",
-        "/vendor/jquery/dist/jquery.js",
-        "/vendor/bootstrap/dist/js/bootstrap.js",
+        "//code.jquery.com/jquery-2.1.0.min.js",
+        "//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js",
         "/scripts/scripts.js"
       ]
 

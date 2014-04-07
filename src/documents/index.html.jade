@@ -26,8 +26,9 @@ isPage: true
 										
 				.myavatar
 					a(href=site.linkedin, data-toggle="tooltip", data-placement="left", title="Linkedin")
-						i.fa.fa-linkedin
+						i.fa.fa-linkedin 
 					img.img-circle(src=site.avatar)
+						|  
 					a(href=site.twitter, data-toggle="tooltip", data-placement="right", title="Twitter")
 						i.fa.fa-twitter
 						
@@ -48,23 +49,23 @@ isPage: true
 						li.active
 							a(href="#about", data-toggle="tab", data-menu="about")
 								i.fa.fa-user
-								| About Me
+								|  About Me
 						li
 							a(href="#resume", data-toggle="tab",data-menu="resume")
 								i.fa.fa-code
-								| Resume
+								|  Resume
 						li
 							a(href="#portfolio", data-toggle="tab", data-menu="portfolio")
 								i.fa.fa-folder-open
-								| Portfolio
+								|  Portfolio
 						li
 							a(href="#blog", data-toggle="tab", data-menu="blog")
 								i.fa.fa-leaf
-								| Blog
+								|  Blog
 						li
 							a(href="#contact", data-toggle="tab", data-menu="contact")
 								i.fa.fa-envelope
-								| Contact
+								|  Contact
 
 				.tab-content
 
@@ -86,7 +87,7 @@ isPage: true
 							.col-md-6
 								h2
 									i.fa.fa-credit-card
-									| Identity
+									|  Identity
 								table.table.table-hover
 									tr
 										td Fullname
@@ -104,18 +105,18 @@ isPage: true
 									tr
 										td Email
 										td
-											site.email
+											!= site.email
 									tr
 										td Skype
 										td madalin.ignisca
 									tr
 										td Website
 										td
-											site.url
+											!= site.url
 							.col-md-6
 								h2
 									i.fa.fa-briefcase
-									| Main Skills
+									|  Main Skills
 								ul.list-group
 								li.list-group-item
 									| Frontend development
@@ -137,7 +138,7 @@ isPage: true
 							.col-xs-12
 								h2
 									i.fa.fa-users
-									| Companies worked with
+									|  Companies worked with
 								ul.list-inline.text-center
 									li
 										a(href="http://webozy.com")
@@ -154,7 +155,7 @@ isPage: true
 							.col-md-8
 								h2
 									i.fa.fa-bar-chart-o
-									| Work history
+									|  Work history
 								.time-line
 									.item-event.current
 										.event-content
@@ -218,7 +219,7 @@ isPage: true
 								hr
 								h2
 									i.fa.fa-book
-									| Education
+									|  Education
 								.time-line
 									.item-event
 										.even-content
@@ -230,7 +231,7 @@ isPage: true
 							.col-md-4
 								h2
 									i.fa.fa-wrench
-									| Skills
+									|  Skills
 								ul.list-group
 									li.list-group-item
 										| PSD to Web Template
@@ -279,8 +280,8 @@ isPage: true
 								hr
 								h2
 									i.fa.fa-comment
-									| Known Languages
-								.list-group
+									|  Known Languages
+								ul.list-group
 									li.list-group-item
 										| English
 										span.badge advanced
@@ -293,14 +294,20 @@ isPage: true
 								hr
 								h2
 									i.fa.fa-file
-									| Download my CV
+									|  Download my CV
 								p.text-center
-									a.btn.btn-success.btn-lg(href="/docs/cv_madalin_ignisca.pdf")
+									a.btn.btn-success.btn-lg(href="/docs/Madalin_CV.pdf")
 										i.fa.fa-download
-										| Download
-								p.text-center.text-info
-									| Or view it online at
-									a(href="http://www.myjob.ro/cv/202411/") MyJob.ro
+										|  Download
+								hr
+								h2
+									i.fa.fa-external-link-square
+									|  Other references
+								p.text-muted
+									|This are some links to online profiles on websites that provide tests for developers
+								ul.list-group
+									li.list-group-item
+										a(href="http://smarterer.com/imadalin") Smarterer
 
 					#portfolio.tab-pane.fade
 						h3
@@ -376,7 +383,7 @@ isPage: true
 								h2
 									i.fa.fa-envelope
 									| Email:
-								p= site.author
+								p= site.email
 								h2
 									i.fa.fa-phone
 									| Phone:

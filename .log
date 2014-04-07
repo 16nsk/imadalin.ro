@@ -1,97 +1,93 @@
 [32mdebug:[39m Emitting the event: consoleSetup
-    [2m→ [2014-03-26 21:08:06.838] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1184] [DocPad.emitSerial][22m
+    [2m→ [2014-03-26 21:51:56.675] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1184] [DocPad.emitSerial][22m
 [32mdebug:[39m Emitted the event: consoleSetup
-    [2m→ [2014-03-26 21:08:06.847] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1189] [TaskGroup.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:56.685] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1189] [TaskGroup.<anonymous>][22m
 [32mdebug:[39m Loading user's configuration: /Users/madalin/Dropbox/.docpad.cson
-    [2m→ [2014-03-26 21:08:06.854] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1441] [Task.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:56.691] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1441] [Task.<anonymous>][22m
 [32mdebug:[39m Loading configuration path: /Users/madalin/Dropbox/.docpad.cson
-    [2m→ [2014-03-26 21:08:06.856] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1592] [load][22m
+    [2m→ [2014-03-26 21:51:56.693] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1592] [load][22m
 [32mdebug:[39m Loading user's configuration: /Users/madalin/Dropbox/.docpad.cson
-    [2m→ [2014-03-26 21:08:06.882] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1449] [unknown][22m
+    [2m→ [2014-03-26 21:51:56.719] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1449] [unknown][22m
 [32mdebug:[39m Loading website package.json configuration: /Users/madalin/Devel/imadalin.ro/package.json
-    [2m→ [2014-03-26 21:08:06.884] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1485] [Task.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:56.721] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1485] [Task.<anonymous>][22m
 [32mdebug:[39m Loading configuration path: /Users/madalin/Devel/imadalin.ro/package.json
-    [2m→ [2014-03-26 21:08:06.886] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1592] [load][22m
+    [2m→ [2014-03-26 21:51:56.723] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1592] [load][22m
 [32mdebug:[39m Loaded website package.json configuration: /Users/madalin/Devel/imadalin.ro/package.json
-    [2m→ [2014-03-26 21:08:06.890] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1494] [unknown][22m
+    [2m→ [2014-03-26 21:51:56.727] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1494] [unknown][22m
 [32mdebug:[39m Loading .env file configuration: /Users/madalin/Devel/imadalin.ro/.env
-    [2m→ [2014-03-26 21:08:06.891] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1502] [Task.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:56.729] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1502] [Task.<anonymous>][22m
 [32mdebug:[39m Loading .env file configuration: /Users/madalin/Devel/imadalin.ro/.env
-    [2m→ [2014-03-26 21:08:06.896] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1517] [unknown][22m
+    [2m→ [2014-03-26 21:51:56.734] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1517] [unknown][22m
 [32mdebug:[39m Loading website configuration
-    [2m→ [2014-03-26 21:08:06.898] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1524] [Task.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:56.735] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1524] [Task.<anonymous>][22m
 [32mdebug:[39m Loading configuration path: /Users/madalin/Devel/imadalin.ro/docpad.coffee
-    [2m→ [2014-03-26 21:08:06.901] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1592] [load][22m
+    [2m→ [2014-03-26 21:51:56.738] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1592] [load][22m
 [32mdebug:[39m Loaded website configuration
-    [2m→ [2014-03-26 21:08:06.930] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1539] [unknown][22m
+    [2m→ [2014-03-26 21:51:56.757] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1539] [unknown][22m
 [32mdebug:[39m Plugins loading for: /Users/madalin/Devel/imadalin.ro/node_modules
-    [2m→ [2014-03-26 21:08:06.934] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2574] [DocPad.loadPluginsIn][22m
+    [2m→ [2014-03-26 21:51:56.761] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2574] [DocPad.loadPluginsIn][22m
 [32mdebug:[39m Loading plugin: .bin
-    [2m→ [2014-03-26 21:08:06.939] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2530] [DocPad.loadPlugin][22m
+    [2m→ [2014-03-26 21:51:56.766] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2530] [DocPad.loadPlugin][22m
 [32mdebug:[39m Loading plugin: docpad
-    [2m→ [2014-03-26 21:08:06.941] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2530] [DocPad.loadPlugin][22m
+    [2m→ [2014-03-26 21:51:56.768] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2530] [DocPad.loadPlugin][22m
 [32mdebug:[39m Loading plugin: eco
-    [2m→ [2014-03-26 21:08:06.943] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2530] [DocPad.loadPlugin][22m
+    [2m→ [2014-03-26 21:51:56.770] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2530] [DocPad.loadPlugin][22m
 [32mdebug:[39m Loading plugin: jade
-    [2m→ [2014-03-26 21:08:06.946] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2530] [DocPad.loadPlugin][22m
+    [2m→ [2014-03-26 21:51:56.772] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2530] [DocPad.loadPlugin][22m
 [32mdebug:[39m Loading plugin: less
-    [2m→ [2014-03-26 21:08:06.948] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2530] [DocPad.loadPlugin][22m
+    [2m→ [2014-03-26 21:51:56.774] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2530] [DocPad.loadPlugin][22m
 [32mdebug:[39m Loading plugin: livereload
-    [2m→ [2014-03-26 21:08:06.950] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2530] [DocPad.loadPlugin][22m
+    [2m→ [2014-03-26 21:51:56.776] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2530] [DocPad.loadPlugin][22m
 [32mdebug:[39m Loading plugin: marked
-    [2m→ [2014-03-26 21:08:06.952] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2530] [DocPad.loadPlugin][22m
+    [2m→ [2014-03-26 21:51:56.779] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2530] [DocPad.loadPlugin][22m
 [32mdebug:[39m Skipped the unsupported plugin: docpad due to type
-    [2m→ [2014-03-26 21:08:06.955] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2544] [unknown][22m
+    [2m→ [2014-03-26 21:51:56.781] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2544] [unknown][22m
 [32mdebug:[39m Loaded plugin: eco
-    [2m→ [2014-03-26 21:08:06.961] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2560] [unknown][22m
+    [2m→ [2014-03-26 21:51:56.787] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2560] [unknown][22m
 [32mdebug:[39m Loading plugin: services
-    [2m→ [2014-03-26 21:08:06.963] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2530] [DocPad.loadPlugin][22m
+    [2m→ [2014-03-26 21:51:56.789] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2530] [DocPad.loadPlugin][22m
 [32mdebug:[39m Loaded plugin: jade
-    [2m→ [2014-03-26 21:08:07.194] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2560] [unknown][22m
+    [2m→ [2014-03-26 21:51:57.018] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2560] [unknown][22m
 [32mdebug:[39m Loaded plugin: less
-    [2m→ [2014-03-26 21:08:07.197] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2560] [unknown][22m
+    [2m→ [2014-03-26 21:51:57.021] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2560] [unknown][22m
 [32mdebug:[39m Loaded plugin: livereload
-    [2m→ [2014-03-26 21:08:07.200] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2560] [unknown][22m
+    [2m→ [2014-03-26 21:51:57.025] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2560] [unknown][22m
 [32mdebug:[39m Loaded plugin: marked
-    [2m→ [2014-03-26 21:08:07.205] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2560] [unknown][22m
+    [2m→ [2014-03-26 21:51:57.029] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2560] [unknown][22m
 [32mdebug:[39m Loaded plugin: services
-    [2m→ [2014-03-26 21:08:07.210] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2560] [unknown][22m
+    [2m→ [2014-03-26 21:51:57.034] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2560] [unknown][22m
 [32mdebug:[39m Plugins loaded for: /Users/madalin/Devel/imadalin.ro/node_modules
-    [2m→ [2014-03-26 21:08:07.212] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2597] [Object.scandir.next][22m
+    [2m→ [2014-03-26 21:51:57.036] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2597] [Object.scandir.next][22m
 [32mdebug:[39m Emitting the event: extendCollections
-    [2m→ [2014-03-26 21:08:07.219] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1184] [DocPad.emitSerial][22m
+    [2m→ [2014-03-26 21:51:57.042] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1184] [DocPad.emitSerial][22m
 [32mdebug:[39m Emitted the event: extendCollections
-    [2m→ [2014-03-26 21:08:07.222] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1189] [TaskGroup.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.045] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1189] [TaskGroup.<anonymous>][22m
 [32mdebug:[39m Emitting the event: extendTemplateData
-    [2m→ [2014-03-26 21:08:07.224] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1184] [DocPad.emitSerial][22m
+    [2m→ [2014-03-26 21:51:57.048] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1184] [DocPad.emitSerial][22m
 [32mdebug:[39m Emitted the event: extendTemplateData
-    [2m→ [2014-03-26 21:08:07.227] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1189] [TaskGroup.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.051] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1189] [TaskGroup.<anonymous>][22m
 [32mdebug:[39m Emitting the event: docpadLoaded
-    [2m→ [2014-03-26 21:08:07.232] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1184] [DocPad.emitSerial][22m
+    [2m→ [2014-03-26 21:51:57.055] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1184] [DocPad.emitSerial][22m
 [32mdebug:[39m Emitted the event: docpadLoaded
-    [2m→ [2014-03-26 21:08:07.234] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1189] [TaskGroup.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.058] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1189] [TaskGroup.<anonymous>][22m
 [32minfo:[39m Welcome to DocPad v6.64.0 (local installation: /Users/madalin/Devel/imadalin.ro/node_modules/docpad)
-    [2m→ [2014-03-26 21:08:07.238] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1262] [DocPad.ready][22m
+    [2m→ [2014-03-26 21:51:57.061] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1262] [DocPad.ready][22m
 [32minfo:[39m Contribute: http://docpad.org/docs/contribute
-    [2m→ [2014-03-26 21:08:07.241] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1263] [DocPad.ready][22m
+    [2m→ [2014-03-26 21:51:57.063] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1263] [DocPad.ready][22m
 [32minfo:[39m Plugins: eco v2.0.3, jade v2.6.2, less v2.4.1, livereload v2.6.0, marked v2.2.0, services v2.5.0
-    [2m→ [2014-03-26 21:08:07.243] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1264] [DocPad.ready][22m
-[32minfo:[39m Environment: development
-    [2m→ [2014-03-26 21:08:07.245] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1265] [DocPad.ready][22m
-[32mdebug:[39m Emitting the event: welcome
-    [2m→ [2014-03-26 21:08:07.248] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1184] [DocPad.emitSerial][22m
-[32mdebug:[39m Emitted the event: welcome
-    [2m→ [2014-03-26 21:08:07.257] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1189] [TaskGroup.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.065] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1264] [DocPad.ready][22m
+[32minfo:[39m Environment: static
+    [2m→ [2014-03-26 21:51:57.067] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1265] [DocPad.ready][22m
 [32mdebug:[39m Emitting the event: docpadReady
-    [2m→ [2014-03-26 21:08:07.263] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1184] [DocPad.emitSerial][22m
+    [2m→ [2014-03-26 21:51:57.076] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1184] [DocPad.emitSerial][22m
 [32mdebug:[39m Emitted the event: docpadReady
-    [2m→ [2014-03-26 21:08:07.265] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1189] [TaskGroup.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.078] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1189] [TaskGroup.<anonymous>][22m
 [32minfo:[39m Generating...
-    [2m→ [2014-03-26 21:08:07.269] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:3079] [DocPad.generate][22m
+    [2m→ [2014-03-26 21:51:57.082] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:3079] [DocPad.generate][22m
 [32mdebug:[39m Emitting the event: notify
-    [2m→ [2014-03-26 21:08:07.271] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1184] [DocPad.emitSerial][22m
+    [2m→ [2014-03-26 21:51:57.084] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1184] [DocPad.emitSerial][22m
 [32mdebug:[39m Emitted the event: notify
-    [2m→ [2014-03-26 21:08:07.276] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1189] [TaskGroup.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.089] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1189] [TaskGroup.<anonymous>][22m
 [32mdebug:[39m Generate options: { cache: false,
   initial: true,
   reset: true,
@@ -99,149 +95,149 @@
   reload: true,
   partial: false,
   renderPasses: 1 }
-    [2m→ [2014-03-26 21:08:07.281] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:3142] [Task.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.094] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:3142] [Task.<anonymous>][22m
 [32mdebug:[39m Emitting the event: populateCollectionsBefore
-    [2m→ [2014-03-26 21:08:07.284] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1184] [DocPad.emitSerial][22m
+    [2m→ [2014-03-26 21:51:57.097] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1184] [DocPad.emitSerial][22m
 [32mdebug:[39m Emitted the event: populateCollectionsBefore
-    [2m→ [2014-03-26 21:08:07.287] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1189] [TaskGroup.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.099] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1189] [TaskGroup.<anonymous>][22m
 [32mdebug:[39m Parsing directory: /Users/madalin/Devel/imadalin.ro/src/documents
-    [2m→ [2014-03-26 21:08:07.290] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2406] [unknown][22m
+    [2m→ [2014-03-26 21:51:57.102] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2406] [unknown][22m
 [32mdebug:[39m Detect the file: document: /Users/madalin/Devel/imadalin.ro/src/documents/index.html.jade
-    [2m→ [2014-03-26 21:08:07.296] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.109] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
 [32mdebug:[39m Detect the file: document: /Users/madalin/Devel/imadalin.ro/src/documents/posts.html.jade
-    [2m→ [2014-03-26 21:08:07.300] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.112] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
 [32mdebug:[39m Stat the file and cache the result: document: /Users/madalin/Devel/imadalin.ro/src/documents/index.html.jade
-    [2m→ [2014-03-26 21:08:07.303] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.116] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
 [32mdebug:[39m Stat the file and cache the result: document: /Users/madalin/Devel/imadalin.ro/src/documents/posts.html.jade
-    [2m→ [2014-03-26 21:08:07.308] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.121] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
 [32mdebug:[39m Detect the file: document: /Users/madalin/Devel/imadalin.ro/src/documents/posts/2014-03-25-Hello-From-DocPad.html.jade
-    [2m→ [2014-03-26 21:08:07.311] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.124] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
 [32mdebug:[39m Detect the file: document: /Users/madalin/Devel/imadalin.ro/src/documents/scripts/scripts.js
-    [2m→ [2014-03-26 21:08:07.314] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
-[32mdebug:[39m Read the file and cache the result: document: /Users/madalin/Devel/imadalin.ro/src/documents/index.html.jade
-    [2m→ [2014-03-26 21:08:07.316] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.127] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
 [32mdebug:[39m Detect the file: document: /Users/madalin/Devel/imadalin.ro/src/documents/styles/bootswatch.less
-    [2m→ [2014-03-26 21:08:07.320] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.131] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
+[32mdebug:[39m Read the file and cache the result: document: /Users/madalin/Devel/imadalin.ro/src/documents/index.html.jade
+    [2m→ [2014-03-26 21:51:57.133] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
 [32mdebug:[39m Detect the file: document: /Users/madalin/Devel/imadalin.ro/src/documents/styles/style.css.less
-    [2m→ [2014-03-26 21:08:07.323] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.136] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
 [32mdebug:[39m Detect the file: document: /Users/madalin/Devel/imadalin.ro/src/documents/styles/variables.less
-    [2m→ [2014-03-26 21:08:07.326] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.139] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
 [32mdebug:[39m Read the file and cache the result: document: /Users/madalin/Devel/imadalin.ro/src/documents/posts.html.jade
-    [2m→ [2014-03-26 21:08:07.329] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.141] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
 [32mdebug:[39m Stat the file and cache the result: document: /Users/madalin/Devel/imadalin.ro/src/documents/posts/2014-03-25-Hello-From-DocPad.html.jade
-    [2m→ [2014-03-26 21:08:07.332] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.144] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
 [32mdebug:[39m Stat the file and cache the result: document: /Users/madalin/Devel/imadalin.ro/src/documents/scripts/scripts.js
-    [2m→ [2014-03-26 21:08:07.335] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.147] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
 [32mdebug:[39m Stat the file and cache the result: document: /Users/madalin/Devel/imadalin.ro/src/documents/styles/bootswatch.less
-    [2m→ [2014-03-26 21:08:07.338] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.150] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
 [32mdebug:[39m Stat the file and cache the result: document: /Users/madalin/Devel/imadalin.ro/src/documents/styles/style.css.less
-    [2m→ [2014-03-26 21:08:07.341] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.153] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
 [32mdebug:[39m Stat the file and cache the result: document: /Users/madalin/Devel/imadalin.ro/src/documents/styles/variables.less
-    [2m→ [2014-03-26 21:08:07.348] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.157] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
 [32mdebug:[39m Load -> Parse: document: /Users/madalin/Devel/imadalin.ro/src/documents/index.html.jade
-    [2m→ [2014-03-26 21:08:07.351] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.160] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
 [32mdebug:[39m Read the file and cache the result: document: /Users/madalin/Devel/imadalin.ro/src/documents/posts/2014-03-25-Hello-From-DocPad.html.jade
-    [2m→ [2014-03-26 21:08:07.354] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.165] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
 [32mdebug:[39m Read the file and cache the result: document: /Users/madalin/Devel/imadalin.ro/src/documents/scripts/scripts.js
-    [2m→ [2014-03-26 21:08:07.357] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.169] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
 [32mdebug:[39m Read the file and cache the result: document: /Users/madalin/Devel/imadalin.ro/src/documents/styles/bootswatch.less
-    [2m→ [2014-03-26 21:08:07.360] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.172] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
 [32mdebug:[39m Load -> Parse: document: /Users/madalin/Devel/imadalin.ro/src/documents/posts.html.jade
-    [2m→ [2014-03-26 21:08:07.363] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.175] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
 [32mdebug:[39m Read the file and cache the result: document: /Users/madalin/Devel/imadalin.ro/src/documents/styles/style.css.less
-    [2m→ [2014-03-26 21:08:07.366] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.178] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
 [32mdebug:[39m Read the file and cache the result: document: /Users/madalin/Devel/imadalin.ro/src/documents/styles/variables.less
-    [2m→ [2014-03-26 21:08:07.369] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.180] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
 [32mdebug:[39m Parse -> Normalize: document: /Users/madalin/Devel/imadalin.ro/src/documents/index.html.jade
-    [2m→ [2014-03-26 21:08:07.379] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.191] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
 [32mdebug:[39m Parse -> Normalize: document: /Users/madalin/Devel/imadalin.ro/src/documents/posts.html.jade
-    [2m→ [2014-03-26 21:08:07.384] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.195] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
 [32mdebug:[39m Load -> Parse: document: /Users/madalin/Devel/imadalin.ro/src/documents/posts/2014-03-25-Hello-From-DocPad.html.jade
-    [2m→ [2014-03-26 21:08:07.387] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.199] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
 [32mdebug:[39m Load -> Parse: document: /Users/madalin/Devel/imadalin.ro/src/documents/scripts/scripts.js
-    [2m→ [2014-03-26 21:08:07.390] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
-[32mdebug:[39m Normalize -> Contextualize: document: /Users/madalin/Devel/imadalin.ro/src/documents/index.html.jade
-    [2m→ [2014-03-26 21:08:07.394] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.202] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
 [32mdebug:[39m Load -> Parse: document: /Users/madalin/Devel/imadalin.ro/src/documents/styles/bootswatch.less
-    [2m→ [2014-03-26 21:08:07.398] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.205] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
+[32mdebug:[39m Normalize -> Contextualize: document: /Users/madalin/Devel/imadalin.ro/src/documents/index.html.jade
+    [2m→ [2014-03-26 21:51:57.209] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
 [32mdebug:[39m Normalize -> Contextualize: document: /Users/madalin/Devel/imadalin.ro/src/documents/posts.html.jade
-    [2m→ [2014-03-26 21:08:07.402] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.213] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
 [31merror:[39m Something went wrong with the action
-    [2m→ [2014-03-26 21:08:07.406] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/interfaces/console.js:107] [ConsoleInterface.destroyWithError][22m
+    [2m→ [2014-03-26 21:51:57.217] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/interfaces/console.js:107] [ConsoleInterface.destroyWithError][22m
 [31merror:[39m An error occured: 
 Unable to parse.
-    [2m→ [2014-03-26 21:08:07.411] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2018] [DocPad.error][22m
+    [2m→ [2014-03-26 21:51:57.222] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2018] [DocPad.error][22m
 [32mdebug:[39m Emitting the event: notify
-    [2m→ [2014-03-26 21:08:07.416] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1184] [DocPad.emitSerial][22m
+    [2m→ [2014-03-26 21:51:57.226] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1184] [DocPad.emitSerial][22m
 [32mdebug:[39m Load -> Parse: document: /Users/madalin/Devel/imadalin.ro/src/documents/styles/style.css.less
-    [2m→ [2014-03-26 21:08:07.424] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.234] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
 [32mdebug:[39m Load -> Parse: document: /Users/madalin/Devel/imadalin.ro/src/documents/styles/variables.less
-    [2m→ [2014-03-26 21:08:07.427] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.236] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
 [32mdebug:[39m Parse -> Normalize: document: /Users/madalin/Devel/imadalin.ro/src/documents/scripts/scripts.js
-    [2m→ [2014-03-26 21:08:07.430] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
-[32mdebug:[39m Updated mtime for these models due to addition of a similar one []
-    [2m→ [2014-03-26 21:08:07.437] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1108] [FilesCollection.<anonymous>][22m
-[32mdebug:[39m Adding document: /Users/madalin/Devel/imadalin.ro/src/documents/index.html.jade
-    [2m→ [2014-03-26 21:08:07.442] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1662] [FilesCollection.setCollections.documents][22m
-[32mdebug:[39m Adding generate file: /Users/madalin/Devel/imadalin.ro/src/documents/index.html.jade
-    [2m→ [2014-03-26 21:08:07.451] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1689] [FilesCollection.setCollections.generate][22m
-[32mdebug:[39m Adding has layout file: /Users/madalin/Devel/imadalin.ro/src/documents/index.html.jade
-    [2m→ [2014-03-26 21:08:07.458] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1705] [FilesCollection.setCollections.hasLayout][22m
-[32mdebug:[39m Adding html file: /Users/madalin/Devel/imadalin.ro/src/documents/index.html.jade
-    [2m→ [2014-03-26 21:08:07.467] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1711] [FilesCollection.setCollections.html][22m
+    [2m→ [2014-03-26 21:51:57.239] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
 [32mdebug:[39m Parse -> Normalize: document: /Users/madalin/Devel/imadalin.ro/src/documents/styles/bootswatch.less
-    [2m→ [2014-03-26 21:08:07.474] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.243] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
 [32mdebug:[39m Updated mtime for these models due to addition of a similar one []
-    [2m→ [2014-03-26 21:08:07.479] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1108] [FilesCollection.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.249] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1108] [FilesCollection.<anonymous>][22m
+[32mdebug:[39m Adding document: /Users/madalin/Devel/imadalin.ro/src/documents/index.html.jade
+    [2m→ [2014-03-26 21:51:57.255] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1662] [FilesCollection.setCollections.documents][22m
+[32mdebug:[39m Adding generate file: /Users/madalin/Devel/imadalin.ro/src/documents/index.html.jade
+    [2m→ [2014-03-26 21:51:57.263] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1689] [FilesCollection.setCollections.generate][22m
+[32mdebug:[39m Adding has layout file: /Users/madalin/Devel/imadalin.ro/src/documents/index.html.jade
+    [2m→ [2014-03-26 21:51:57.271] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1705] [FilesCollection.setCollections.hasLayout][22m
+[32mdebug:[39m Adding html file: /Users/madalin/Devel/imadalin.ro/src/documents/index.html.jade
+    [2m→ [2014-03-26 21:51:57.278] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1711] [FilesCollection.setCollections.html][22m
+[32mdebug:[39m Updated mtime for these models due to addition of a similar one []
+    [2m→ [2014-03-26 21:51:57.287] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1108] [FilesCollection.<anonymous>][22m
 [32mdebug:[39m Adding document: /Users/madalin/Devel/imadalin.ro/src/documents/posts.html.jade
-    [2m→ [2014-03-26 21:08:07.485] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1662] [FilesCollection.setCollections.documents][22m
+    [2m→ [2014-03-26 21:51:57.292] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1662] [FilesCollection.setCollections.documents][22m
 [32mdebug:[39m Adding generate file: /Users/madalin/Devel/imadalin.ro/src/documents/posts.html.jade
-    [2m→ [2014-03-26 21:08:07.493] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1689] [FilesCollection.setCollections.generate][22m
+    [2m→ [2014-03-26 21:51:57.302] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1689] [FilesCollection.setCollections.generate][22m
 [32mdebug:[39m Adding has layout file: /Users/madalin/Devel/imadalin.ro/src/documents/posts.html.jade
-    [2m→ [2014-03-26 21:08:07.501] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1705] [FilesCollection.setCollections.hasLayout][22m
+    [2m→ [2014-03-26 21:51:57.309] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1705] [FilesCollection.setCollections.hasLayout][22m
 [32mdebug:[39m Adding html file: /Users/madalin/Devel/imadalin.ro/src/documents/posts.html.jade
-    [2m→ [2014-03-26 21:08:07.509] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1711] [FilesCollection.setCollections.html][22m
+    [2m→ [2014-03-26 21:51:57.317] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1711] [FilesCollection.setCollections.html][22m
 [32mdebug:[39m Emitted the event: notify
-    [2m→ [2014-03-26 21:08:07.517] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1189] [TaskGroup.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.324] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1189] [TaskGroup.<anonymous>][22m
 [32mdebug:[39m Parse -> Normalize: document: /Users/madalin/Devel/imadalin.ro/src/documents/styles/style.css.less
-    [2m→ [2014-03-26 21:08:07.521] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.327] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
 [32mdebug:[39m Parse -> Normalize: document: /Users/madalin/Devel/imadalin.ro/src/documents/styles/variables.less
-    [2m→ [2014-03-26 21:08:07.529] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.331] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
 [32mdebug:[39m Normalize -> Contextualize: document: /Users/madalin/Devel/imadalin.ro/src/documents/scripts/scripts.js
-    [2m→ [2014-03-26 21:08:07.533] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.337] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
 [32mdebug:[39m Normalize -> Contextualize: document: /Users/madalin/Devel/imadalin.ro/src/documents/styles/bootswatch.less
-    [2m→ [2014-03-26 21:08:07.536] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.340] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
 [32mdebug:[39m Normalize -> Contextualize: document: /Users/madalin/Devel/imadalin.ro/src/documents/styles/style.css.less
-    [2m→ [2014-03-26 21:08:07.540] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.344] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
 [32mdebug:[39m Normalize -> Contextualize: document: /Users/madalin/Devel/imadalin.ro/src/documents/styles/variables.less
-    [2m→ [2014-03-26 21:08:07.544] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.348] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:2294] [DocumentModel.<anonymous>][22m
 [32mdebug:[39m Updated mtime for these models due to addition of a similar one []
-    [2m→ [2014-03-26 21:08:07.548] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1108] [FilesCollection.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.352] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1108] [FilesCollection.<anonymous>][22m
 [32mdebug:[39m Adding document: /Users/madalin/Devel/imadalin.ro/src/documents/scripts/scripts.js
-    [2m→ [2014-03-26 21:08:07.552] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1662] [FilesCollection.setCollections.documents][22m
+    [2m→ [2014-03-26 21:51:57.357] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1662] [FilesCollection.setCollections.documents][22m
 [32mdebug:[39m Adding generate file: /Users/madalin/Devel/imadalin.ro/src/documents/scripts/scripts.js
-    [2m→ [2014-03-26 21:08:07.560] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1689] [FilesCollection.setCollections.generate][22m
+    [2m→ [2014-03-26 21:51:57.364] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1689] [FilesCollection.setCollections.generate][22m
 [32mdebug:[39m Updated mtime for these models due to addition of a similar one []
-    [2m→ [2014-03-26 21:08:07.568] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1108] [FilesCollection.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.372] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1108] [FilesCollection.<anonymous>][22m
 [32mdebug:[39m Adding document: /Users/madalin/Devel/imadalin.ro/src/documents/styles/bootswatch.less
-    [2m→ [2014-03-26 21:08:07.572] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1662] [FilesCollection.setCollections.documents][22m
+    [2m→ [2014-03-26 21:51:57.377] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1662] [FilesCollection.setCollections.documents][22m
 [32mdebug:[39m Adding generate file: /Users/madalin/Devel/imadalin.ro/src/documents/styles/bootswatch.less
-    [2m→ [2014-03-26 21:08:07.579] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1689] [FilesCollection.setCollections.generate][22m
+    [2m→ [2014-03-26 21:51:57.384] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1689] [FilesCollection.setCollections.generate][22m
 [32mdebug:[39m Updated mtime for these models due to addition of a similar one []
-    [2m→ [2014-03-26 21:08:07.588] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1108] [FilesCollection.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.391] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1108] [FilesCollection.<anonymous>][22m
 [32mdebug:[39m Adding document: /Users/madalin/Devel/imadalin.ro/src/documents/styles/style.css.less
-    [2m→ [2014-03-26 21:08:07.592] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1662] [FilesCollection.setCollections.documents][22m
+    [2m→ [2014-03-26 21:51:57.395] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1662] [FilesCollection.setCollections.documents][22m
 [32mdebug:[39m Adding generate file: /Users/madalin/Devel/imadalin.ro/src/documents/styles/style.css.less
-    [2m→ [2014-03-26 21:08:07.599] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1689] [FilesCollection.setCollections.generate][22m
+    [2m→ [2014-03-26 21:51:57.402] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1689] [FilesCollection.setCollections.generate][22m
 [32mdebug:[39m Updated mtime for these models due to addition of a similar one []
-    [2m→ [2014-03-26 21:08:07.607] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1108] [FilesCollection.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:57.410] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1108] [FilesCollection.<anonymous>][22m
 [32mdebug:[39m Adding document: /Users/madalin/Devel/imadalin.ro/src/documents/styles/variables.less
-    [2m→ [2014-03-26 21:08:07.612] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1662] [FilesCollection.setCollections.documents][22m
+    [2m→ [2014-03-26 21:51:57.414] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1662] [FilesCollection.setCollections.documents][22m
 [32mdebug:[39m Adding generate file: /Users/madalin/Devel/imadalin.ro/src/documents/styles/variables.less
-    [2m→ [2014-03-26 21:08:07.619] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1689] [FilesCollection.setCollections.generate][22m
+    [2m→ [2014-03-26 21:51:57.422] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1689] [FilesCollection.setCollections.generate][22m
 [32minfo:[39m Shutting down... cya next time!
-    [2m→ [2014-03-26 21:08:08.914] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/interfaces/console.js:119] [ConsoleInterface.destroy][22m
+    [2m→ [2014-03-26 21:51:58.877] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/interfaces/console.js:119] [ConsoleInterface.destroy][22m
 [32mdebug:[39m Emitting the event: docpadDestroy
-    [2m→ [2014-03-26 21:08:08.916] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1184] [DocPad.emitSerial][22m
+    [2m→ [2014-03-26 21:51:58.879] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1184] [DocPad.emitSerial][22m
 [32mdebug:[39m Emitted the event: docpadDestroy
-    [2m→ [2014-03-26 21:08:08.919] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1189] [TaskGroup.<anonymous>][22m
+    [2m→ [2014-03-26 21:51:58.882] [/Users/madalin/Devel/imadalin.ro/node_modules/docpad/out/lib/docpad.js:1189] [TaskGroup.<anonymous>][22m
