@@ -1,0 +1,42 @@
+---
+title: "Website optimizations based on Google PageSpeed Insights - Part 1"
+date: 2014-04-13
+layout: post
+description: ""
+keywords: "PageSpeed Insights, website, optimization, html, css, javascript"
+brief: "Part one from a series of ideas about the optimizations of a website based on the public rules found in PageSpeed Insights from Google."
+---
+
+.container
+  p Google has offered us a cool tool to analyze and help in optimization of our website: 
+    strong
+      a(href="https://developers.google.com/speed/pagespeed/insights/", title="PageSpeed Insights") PageSpeed Insights
+    | .
+  p I won't start presenting it as it's very easy to use and intuitive. But I'll start talking about the rules that gouvern this web application (also available to be used in Google Chrome developers tools locally).
+  p Let's go through some hints that you'll get with it on many ocasions.
+  h2 Eliminate render-blocking JavaScript and CSS in above-the-fold content
+  p This one relates to optimization on how we would use CSS in our pages.
+  p As we are used most of us, we insert CSS using the 
+    em link
+    |  tag in the 
+    em head
+    |  several times and load all our CSS files so our pages become beautifull, mobile optimized and with lots of kinky design elements. Even if you load multiple css files through imports from a single one, it's still a problem.
+  p The recommandation hints us to read 
+    a(href="https://developers.google.com/speed/docs/insights/OptimizeCSSDelivery", title="Optimize CSS Delivery") Optimize CSS Delivery
+    |  that explains well how they recommend. That is not 100% that you should do it like that, but it's their recommandation and you know, Google is Google ;).
+  p If you would look in the examples, you'll find that you should put in the 
+    em head
+    |  a small piece of mandatory styles inlined and the rest should go after the 
+    em html
+    |  closing tag.
+  p You may think, but this isn't how I've learned, but trust me, no, trust Google, that CSS will be read and will be used by the browser very well and you have not violated any html rule.
+  p As the html file is read, this will speed up display of the top portion of the page, as Google has set that how fast a person can see the first thing that loads on the page is top priority.
+  p This is a very small element even in the search engine ranking algorithm.
+  p This 
+    em head
+    |  inlined css should contain the very minimum rules that will make both on mobile and on desktop the top information to be readable by the visitor in the first second while loading.
+  h3.text-info Tip about inline css in content
+  p There are lot's of people that use Wysiwyg editors to edit their articles, most of them in WordPress as it's so f**king popular. Many of them tend to style a lot the content with that. It produces inline style in the content. For those who do that, please go and read about 
+    a(href="http://www.w3.org/TR/CSP/", alt="Content Security Policy") Content Security Policy
+    |  to understand why it will not work anymore very soon, as inline css in content will not be rendered anymore by browsers.
+  p Not only that. Over the last 5 years as I worked a lot with web agencies specialized in SEO (I had to start from somewhere and make a living) to build or fix websites for them, I found that the majority of people that they work with, as they search in general for very cheap workers from we know which contries, are doing a lot of inline styling in what they do. They do a lot of other bad things, but that's a different topic.

@@ -8,7 +8,7 @@ isPage: true
 	.row
 		.col-lg-10.col-lg-offset-1
 		
-			header.push-bottom.text-center
+			header#header.push-bottom.text-center
 			
 				.popover.top.static
 					.arrow
@@ -23,15 +23,16 @@ isPage: true
 									p  PS. The site is static online, dynamic on local
 										i.fa.fa-beer
 								.item
-									p Look ma', I'm running on appfog in da clouds!... 
+									p Look ma', I'm running in da clouds!... 
 										i.fa.fa-cloud
 										
-				.myavatar
+				.myavatar.h1
 					a(href=site.linkedin, data-toggle="tooltip", data-placement="left", title="Linkedin")
-						i.fa.fa-linkedin 
+						i.fa.fa-linkedin  
+						| &nbsp;
 					img.img-circle(src=site.avatar)
-						|  
-					a(href=site.twitter, data-toggle="tooltip", data-placement="right", title="Twitter")
+						| &nbsp;
+					a(href=site.twitter, data-toggle="tooltip", data-placement="right", title="Twitter")  
 						i.fa.fa-twitter
 						
 				h1.name
@@ -134,6 +135,14 @@ isPage: true
 										i.fa.fa-thumbs-up
 								li.list-group-item
 									| Drupal development
+									span.badge
+										i.fa.fa-thumbs-up
+								li.list-group-item
+									| PHP development
+									span.badge
+										i.fa.fa-thumbs-up
+								li.list-group-item
+									| JavaScript development
 									span.badge
 										i.fa.fa-thumbs-up
 						.row
@@ -310,12 +319,35 @@ isPage: true
 								ul.list-group
 									li.list-group-item
 										a(href="http://smarterer.com/imadalin") Smarterer
+									li.list-group-item
+										a(href="http://test.drupalskills.org/user/1145") Drupal Skills
 
 					#portfolio.tab-pane.fade
 						h3
 							i.fa.fa-briefcase
-							| Some of my Work						
+							|  Some of my Work						
 						.row
+							.col-sm-4
+								.panel.panel-default
+									.panel-body
+										a(data-toggle="modal", data-target="#phAnt")
+											img.img-responsive(src="/images/portfolio/ph-ant.jpg", alt="PH ANT")
+									.panel-footer
+										p.text-center PHANT Academy
+							.col-sm-4
+								.panel.panel-default
+									.panel-body
+										a(data-toggle="modal", data-target="#unaoarecare")
+											img.img-responsive(src="/images/portfolio/unaoarecare.jpg", alt="Unaoarecare")
+									.panel-footer
+										p.text-center Unaoarecare.ro
+							.col-sm-4
+								.panel.panel-default
+									.panel-body
+										a(data-toggle="modal", data-target="#gigant")
+											img.img-responsive(src="/images/portfolio/gigant.jpg", alt="Gigant Band")
+									.panel-footer
+										p.text-center Gigant Band
 							.col-sm-4
 								.panel.panel-default
 									.panel-body
@@ -333,14 +365,6 @@ isPage: true
 							.col-sm-4
 								.panel.panel-default
 									.panel-body
-										a(data-toggle="modal", data-target="#gigant")
-											img.img-responsive(src="/images/portfolio/gigant.jpg", alt="Gigant Band")
-									.panel-footer
-										p.text-center Gigant Band
-						.row
-							.col-sm-4
-								.panel.panel-default
-									.panel-body
 										a(data-toggle="modal", data-target="#notaclue")
 											img.img-responsive(src="/images/portfolio/notaclue.jpg", alt="Not a clue adventures")
 									.panel-footer
@@ -348,25 +372,10 @@ isPage: true
 							.col-sm-4
 								.panel.panel-default
 									.panel-body
-										a(data-toggle="modal", data-target="#unaoarecare")
-											img.img-responsive(src="/images/portfolio/unaoarecare.jpg", alt="Unaoarecare")
-									.panel-footer
-										p.text-center Unaoarecare.ro
-							.col-sm-4
-								.panel.panel-default
-									.panel-body
 										a(data-toggle="modal", data-target="#vesh")
 											img.img-responsive(src="/images/portfolio/vesh.jpg", alt="Vesh catering")
 									.panel-footer
-										p.text-center Vesh catering
-						.row
-							.col-sm-4
-								.panel.panel-default
-									.panel-body
-										a(data-toggle="modal", data-target="#phAnt")
-											img.img-responsive(src="/images/portfolio/ph-ant.jpg", alt="PH ANT")
-									.panel-footer
-										p.text-center PHANT Academy										
+										p.text-center Vesh catering									
 					#blog.tab-pane.fade
 						h1.text-center Latest posts
 						each doc in getCollection("posts").toJSON()
@@ -384,11 +393,11 @@ isPage: true
 							.col-sm-10.col-sm-offset-1
 								h2
 									i.fa.fa-envelope
-									| Email:
+									|  Email:
 								p= site.email
 								h2
 									i.fa.fa-phone
-									| Phone:
+									|  Phone:
 								p +40 731 792 027
 								p.small I answer only to know numbers. Please send an email with your number before.
 
